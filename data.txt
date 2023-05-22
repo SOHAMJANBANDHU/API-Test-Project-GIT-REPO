@@ -1,0 +1,30 @@
+url examples:-
+
+#To create repository = https://github.com/user/repos
+
+here you have to add information in body for example
+ :-
+{
+    "name":"Hello world",
+    "description":"my first git hud respository",
+    "private":false
+}
+
+	*careful about HTTP Request :- POST
+
+#To Get ( Read/Fetch ) Repository = https://github.com/repos/{owner}/{repo}
+
+	*careful about HTTP Request :- GET
+
+#To Update Repository = https://github.com/repos/{owner}/{repo}
+
+here you have to add information in body which you have to update in repository
+:-
+{
+    "private":true
+}
+	*careful about HTTP Request :- PATCH
+
+#To delete Repository = https://github.com/repos/{owner}/{repo}
+
+	*careful about HTTP Request :- DELETE

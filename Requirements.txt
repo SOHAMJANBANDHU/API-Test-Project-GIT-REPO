@@ -1,0 +1,14 @@
+Postman is available on the web at go.postman.co/home and as a native desktop app for Mac (Intel or Apple silicon), Windows (Intel 32-bit or 64-bit), and Linux (64-bit) operating systems.
+
+The Postman web app is optimized for the following browsers:
+
+Chrome (78 and higher)
+Firefox (76 and higher)
+Edge (79 and higher)
+Safari (13.1.1 and higher)
+
+Postman is available for Windows 7 and later.
+
+Download the latest Postman version.
+Select and run the .exe file to install Postman.
+Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit x86 Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.

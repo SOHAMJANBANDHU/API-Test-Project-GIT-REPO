@@ -1,0 +1,194 @@
+{
+	"id": "----------------------your id will be generate here----------------------",
+	"name": "GITHUB",
+	"timestamp": "2023-05-03T05:41:22.487Z",
+	"collection_id": "---------------------------------------------------",
+	"folder_id": 0,
+	"environment_id": "---------------------------------------------------",
+	"totalPass": 12,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-03T05:41:17.916Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "---------------------------------------------------",
+			"name": "CREATE A REPO",
+			"url": "https://api.github.com/user/repos",
+			"time": 1659,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 2000ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1659
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 2000ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "------------------------------------------------------",
+			"name": "GET A REPO",
+			"url": "https://api.github.com/repos/SOHAMJANBANDHU/Hello-soham",
+			"time": 376,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 2000ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				376
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 2000ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "-------------------------------------------------------",
+			"name": "UPDATE A REPO",
+			"url": "https://api.github.com/repos/SOHAMJANBANDHU/Hello-soham",
+			"time": 998,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 2000ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				998
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 2000ms": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "----------------------------------------------------",
+			"name": "DELETE A REPO",
+			"url": "https://api.github.com/repos/SOHAMJANBANDHU/Hello-soham",
+			"time": 748,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Response time is less than 2000ms": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				748
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Response time is less than 2000ms": true,
+					"Status code name has string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3781,
+	"collection": {
+		"requests": [
+			{
+				"id": "------------------------------------",
+				"method": "POST"
+			},
+			{
+				"id": "------------------------------------",
+				"method": "GET"
+			},
+			{
+				"id": "------------------------------------",
+				"method": "PATCH"
+			},
+			{
+				"id": "------------------------------------",
+				"method": "DELETE"
+			}
+		]
+	}
+}
